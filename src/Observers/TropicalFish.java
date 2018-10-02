@@ -15,7 +15,7 @@ public class TropicalFish implements Observer
     @Override
     public void update(Observable o, Object arg)
     {
-        System.out.print(getName() + " has just been fed!");
+        System.out.println(getName() + " has just been fed!");
     }
 
     public String getName() {

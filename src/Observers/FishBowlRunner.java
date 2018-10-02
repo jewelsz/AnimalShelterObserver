@@ -20,7 +20,7 @@ public class FishBowlRunner
             theFishFeeder.addObserver(fish);
         }
 
-        System.out.print("We are feeding the fish...");
+        System.out.println("We are feeding the fish...");
         theFishFeeder.feedTheFish();
 
     }
