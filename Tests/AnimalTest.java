@@ -13,7 +13,6 @@ class AnimalTest
     {
 
         String firstName = "Ozzy";
-        String changedName = "Bozzy";
 
         Cat cat1 = new Cat(firstName, Gender.Male, "Krabt aan het behang");
 

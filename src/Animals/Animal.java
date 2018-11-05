@@ -1,5 +1,7 @@
 package Animals;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 import java.util.Observable;
 
 public class Animal
@@ -8,13 +10,13 @@ public class Animal
     public Gender Gender;
     public Reservor ReservedBy;
 
-    public Animal(String name, Animals.Gender gender)
-    {
-        Name = name;
-        Gender = gender;
-    }
+    public int price;
 
-    public Animal() {
+    public Animal(String name, Animals.Gender gender, int price)
+    {
+        this.Name = name;
+        this.Gender = gender;
+        this.price = price;
     }
 
     public boolean Reserve(String reservedBy)
@@ -37,7 +39,6 @@ public class Animal
         }
         return this.Name + " , " + this.Gender + " , " + reserved;
     }
-
 
     public String getName()
     {

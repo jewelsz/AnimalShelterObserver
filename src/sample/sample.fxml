@@ -24,7 +24,7 @@
    <children>
       <Pane prefHeight="393.0" prefWidth="590.0">
          <children>
-            <Button fx:id="registerBtn" layoutX="226.0" layoutY="336.0" mnemonicParsing="false" onAction="#addAnimal" text="Register" />
+            <Button fx:id="registerBtn" layoutX="226.0" layoutY="336.0" mnemonicParsing="false" onAction="#addAnimal" text="Administration.Register" />
             <TextField fx:id="nameTxt" layoutX="127.0" layoutY="26.0" />
             <TextArea id="badHabitsTxt" fx:id="habitsTxt" layoutX="126.0" layoutY="203.0" prefHeight="78.0" prefWidth="200.0" />
             <Label layoutX="36.0" layoutY="30.0" text="Name" />
